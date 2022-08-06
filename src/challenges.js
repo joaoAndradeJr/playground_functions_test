@@ -1,6 +1,13 @@
 // Desafio 1
-function compareTrue() {
-  // seu código aqui
+function compareTrue(param1, param2) {
+  const one = param1;
+  const two = param2;
+
+  if (param1 === true && param2 === true) {
+    return true;
+  } else {
+    return false;
+  }
 }
 
 // Desafio 2
