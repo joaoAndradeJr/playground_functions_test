@@ -3,7 +3,7 @@ function compareTrue(param1, param2) {
   const one = param1;
   const two = param2;
 
-  if (param1 === true && param2 === true) {
+  if (one === true && two === true) {
     return true;
   } else {
     return false;
