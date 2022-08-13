@@ -3,7 +3,7 @@ function compareTrue(param1, param2) {
   const one = param1;
   const two = param2;
 
-  if (one === true && two === true) {
+  if (param1 === true && param2 === true) {
     return true;
   } else {
     return false;
@@ -11,30 +11,23 @@ function compareTrue(param1, param2) {
 }
 
 // Desafio 2
-function calcArea(base, height) {
-  const valor = (base * height) / 2;
-  return valor;
+function calcArea() {
+  // seu código aqui
 }
 
 // Desafio 3
-function splitSentence(sentence) {
-  const new_array = sentence.split(' ');
-  return new_array;
+function splitSentence() {
+  // seu código aqui
 }
 
 // Desafio 4
-function concatName(array) {
-  const size = array.length;
-  const last = array[size - 1];
-  const first = array[0];
-  return last + ' ' + first;
+function concatName() {
+  // seu código aqui
 }
 
 // Desafio 5
-function footballPoints(wins, ties) {
-  const win_points = wins * 3;
-  const total = win_points + ties;
-  return total;
+function footballPoints() {
+  // seu código aqui
 }
 
 // Desafio 6
