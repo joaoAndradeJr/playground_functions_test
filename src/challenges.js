@@ -11,23 +11,30 @@ function compareTrue(param1, param2) {
 }
 
 // Desafio 2
-function calcArea() {
-  // seu código aqui
+function calcArea(base, height) {
+  const valor = (base * height) / 2;
+  return valor;
 }
 
 // Desafio 3
-function splitSentence() {
-  // seu código aqui
+function splitSentence(sentence) {
+  const new_array = sentence.split(' ');
+  return new_array;
 }
 
 // Desafio 4
-function concatName() {
-  // seu código aqui
+function concatName(array) {
+  const size = array.length;
+  const last = array[size - 1];
+  const first = array[0];
+  return last + ' ' + first;
 }
 
 // Desafio 5
-function footballPoints() {
-  // seu código aqui
+function footballPoints(wins, ties) {
+  const win_points = wins * 3;
+  const total = win_points + ties;
+  return total;
 }
 
 // Desafio 6
